@@ -1,0 +1,14 @@
+.social-btns .row {
+  width: 45%;
+}
+.social-btns .social {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-btns i {
+  background-color: blue;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=social-btns.css.map */

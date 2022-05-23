@@ -1,8 +1,49 @@
+.social-btns .row {
+  width: 45%;
+}
+.social-btns .social {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-btns i {
+  background-color: blue;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.carousel .border {
+  overflow: hidden;
+  height: 22rem;
+  position: relative;
+}
+.carousel .border .top, .carousel .border .middle, .carousel .border .bottom {
+  position: absolute;
+}
+.carousel .border .top {
+  z-index: 3;
+}
+.carousel .border .middle {
+  z-index: 2;
+}
+.carousel .border .bottom {
+  z-index: 1;
+}
+
 body {
-  background: url("images/bg.jpeg") no-repeat center center fixed;
+  background: rgba(0, 0, 0, 0.45) url("../images/bg.jpg") no-repeat fixed;
+  background-blend-mode: darken;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  backdrop-filter: blur(2px);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 53%;
 }
 
 /*# sourceMappingURL=styles.css.map */

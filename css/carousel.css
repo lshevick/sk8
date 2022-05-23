@@ -1,0 +1,19 @@
+.carousel .border {
+  overflow: hidden;
+  height: 22rem;
+  position: relative;
+}
+.carousel .border .top, .carousel .border .middle, .carousel .border .bottom {
+  position: absolute;
+}
+.carousel .border .top {
+  z-index: 3;
+}
+.carousel .border .middle {
+  z-index: 2;
+}
+.carousel .border .bottom {
+  z-index: 1;
+}
+
+/*# sourceMappingURL=carousel.css.map */

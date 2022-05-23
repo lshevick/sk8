@@ -1,8 +1,22 @@
+@use 'social-btns';
+@use 'menu';
+@use 'carousel';
+
 $accent-color: #B1242D;
 
 body {
-    background: url('images/bg.jpeg') no-repeat center center fixed;
+    background: rgba(0, 0, 0, 0.45) url("../images/bg.jpg") no-repeat fixed;
+    background-blend-mode: darken;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 53%;
 }

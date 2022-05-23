@@ -1,0 +1,17 @@
+.social-btns {
+    .row {
+        width: 45%;
+    }
+
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    i {
+        background-color: blue;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}

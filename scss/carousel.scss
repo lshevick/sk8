@@ -1,0 +1,23 @@
+.carousel {
+    .border {
+        overflow: hidden;
+        height: 22rem;
+        position: relative;
+
+        .top, .middle, .bottom {
+            position: absolute;
+        }
+
+        .top {
+            z-index: 3;
+        }
+
+        .middle {
+            z-index: 2;
+        }
+
+        .bottom {
+            z-index: 1;
+        }
+    }
+}
