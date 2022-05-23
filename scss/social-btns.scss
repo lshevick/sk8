@@ -3,15 +3,46 @@
         width: 45%;
     }
 
-
-    .social {
+    a {
+        color: white;
         display: flex;
-        justify-content: flex-end;
+        align-items: center;
+    }
+
+    a::after {
+        content: '•••••';
+        transform: rotate(90deg);
+    }
+
+    .socials {
+        display: flex;
     }
 
     i {
-        background-color: blue;
         font-size: 2rem;
+        width: 20%;
         padding: 1rem;
+        margin: 0 0.5rem;
+    }
+
+    i::before {
+        opacity: 0.5;
+    }
+
+    .fa-facebook-f {
+        background-color: #3A4D8A;
+    }
+
+
+    .fa-rss {
+        background-color: #C98436;
+    }
+
+    .fa-twitter {
+        background-color: #5C81BD;
+    }
+
+    .fa-youtube {
+        background-color: #AE312C;
     }
 }

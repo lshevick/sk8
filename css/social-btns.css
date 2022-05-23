@@ -1,14 +1,39 @@
+@charset "UTF-8";
 .social-btns .row {
   width: 45%;
 }
-.social-btns .social {
+.social-btns a {
+  color: white;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+}
+.social-btns a::after {
+  content: "•••••";
+  transform: rotate(90deg);
+}
+.social-btns .socials {
+  display: flex;
 }
 .social-btns i {
-  background-color: blue;
   font-size: 2rem;
+  width: 20%;
   padding: 1rem;
+  margin: 0 0.5rem;
+}
+.social-btns i::before {
+  opacity: 0.5;
+}
+.social-btns .fa-facebook-f {
+  background-color: #3A4D8A;
+}
+.social-btns .fa-rss {
+  background-color: #C98436;
+}
+.social-btns .fa-twitter {
+  background-color: #5C81BD;
+}
+.social-btns .fa-youtube {
+  background-color: #AE312C;
 }
 
 /*# sourceMappingURL=social-btns.css.map */
