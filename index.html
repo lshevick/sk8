@@ -15,13 +15,13 @@
 <body>
     <div class="container">
         <div class="social-btns d-flex justify-content-end position-relative py-2">
-                <a name="subscribe" id="subscribe" class="" href="#" role="button">SUBSCRIBE •</a>
-                <div class="socials">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-solid fa-rss"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
+            <a name="subscribe" id="subscribe" class="" href="#" role="button">SUBSCRIBE •</a>
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-solid fa-rss"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
         </div>
 
         <nav class="menu-btns py-3">
@@ -79,18 +79,32 @@
             <div class="sk8boarder-arrow">
                 <p>SKATEBOARDERS</p>
             </div>
-            <div class="skateboarder-profile">
-                <h2>LANCE MOUNTAIN</h2>
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class=" col-5 skateboarder-profile border border-white border-5 m-1 p-0">
+                            <img src="images/sk8er-4.png" alt="Lance">
+                            <h2>LANCE MOUNTAIN</h2>
+                        </div>
+                        <div class="col-5 skateboarder-profile border border-white border-5 m-1 p-0">
+                            <img src="images/sk8er-3.png" alt="Rodney">
+                            <h2>RODNEY MULLEN</h2>
+                        </div>
+                    </div>
+
+                    <div class=" col-12 skateboarder-profile border border-white border-5 m-1 p-0">
+                        <img src="images/sk8er-1.png" alt="Steve">
+                        <h2>STEVE CABALLERO</h2>
+                    </div>
+                </div>
+
+                <div class="col-4 skateboarder-profile border border-white border-5 p-0">
+                    <img src="images/sk8er-2.png" alt="Tommy">
+                    <h2>TOMMY GUERRERO</h2>
+                </div>
+
             </div>
-            <div class="skateboarder-profile">
-                <h2>RODNEY MULLEN</h2>
-            </div>
-            <div class="skateboarder-profile">
-                <h2>STEVE CABALLERO</h2>
-            </div>
-            <div class="skateboarder-profile">
-                <h2>TOMMY GUERRERO</h2>
-            </div>
+
         </div>
 
         <div id="board-design">
@@ -120,11 +134,13 @@
 
             <div class="contact-email mb-3">
                 <label for="contact-email" class="form-label"></label>
-                <input type="email" class="form-control" name="" id="contact-email" aria-describedby="ContactUs" placeholder="EMAIL">
+                <input type="email" class="form-control" name="" id="contact-email" aria-describedby="ContactUs"
+                    placeholder="EMAIL">
             </div>
             <div class="mb-3">
-              <label for="contact-meassage" class="form-label"></label>
-              <textarea class="form-control" name="message" id="contact-message" rows="3" placeholder="YOUR MESSAGE"></textarea>
+                <label for="contact-meassage" class="form-label"></label>
+                <textarea class="form-control" name="message" id="contact-message" rows="3"
+                    placeholder="YOUR MESSAGE"></textarea>
             </div>
             <button type="submit" class="btn btn-danger">Submit</button>
         </form>
