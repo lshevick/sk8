@@ -8,12 +8,17 @@
 }
 .carousel .border .top {
   z-index: 3;
+  top: 15%;
+  left: 1%;
 }
 .carousel .border .middle {
   z-index: 2;
+  opacity: 0.25;
 }
 .carousel .border .bottom {
   z-index: 1;
+  left: -10rem;
+  top: -8rem;
 }
 
 /*# sourceMappingURL=carousel.css.map */
