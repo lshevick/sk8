@@ -6,12 +6,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SK8</title>
+    <script src="https://kit.fontawesome.com/06fcfb2e20.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styless.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="social-btns">
+            <div class="row">
+                <div class="col"><i class="fa-brands fa-facebook"></i></div>
+                <div class="col"><i class="fa-solid fa-rss"></i></div>
+                <div class="col"><i class="fa-brands fa-twitter"></i></div>
+                <div class="col"><i class="fa-brands fa-youtube"></i></div>
+            </div>
+        </div>
+
+        <nav class="menu-btns p-3">
+            <div class="row">
+                <div class="col"><a href="#">SK8T NEWS</a></div>
+                <div class="col"><a href="#">SKATEBOARDERS</a></div>
+                <div class="col"><a href="#">BOARD DESIGN</a></div>
+                <div class="col"><a href="#">CONTACT US</a></div>
+            </div>
+        </nav>
+
+        <div class="carousel">
+            <div class="border border-white border-5">
+                <img src="images/peralta-logo.png" alt="peralta logo">
+                <img src="images/grid.png" alt="grid">
+                <img src="images/top-image.png" alt="man with camera">
+            </div>
+        </div>
+
+        <div id="sk8-news">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h2>Tony Hawk Foundation Raises Big Money At Celeb Fundraiser</h2>
+                        <h3>October 10, 2013</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint, pariatur incidunt
+                            excepturi soluta repudiandae illo fuga animi dolorem, nam quae, nemo nihil sapiente aliquam
+                            dicta voluptatibus consectetur nulla fugit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h2>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h2>
+                        <h3>March 10, 2013</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos accusamus cupiditate
+                            vero obcaecati deleniti aliquid aperiam doloremque necessitatibus at amet eligendi
+                            nostrum voluptatem excepturi iste eum incidunt, esse sunt!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h2>Ray Barbee Talks 'Ban This'</h2>
+                        <h3>Oct 4, 2013</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam possimus optio
+                            quia quasi velit explicabo fugiat delectus. Deleniti dolorem est nemo sed assumenda
+                            perferendis vitae minus adipisci laborum ipsa?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skateboarders">
+            <div class="sk8boarder-arrow">
+                <p>SKATEBOARDERS</p>
+            </div>
+            <div class="skateboarder-profile">
+                <h2>LANCE MOUNTAIN</h2>
+            </div>
+            <div class="skateboarder-profile">
+                <h2>RODNEY MULLEN</h2>
+            </div>
+            <div class="skateboarder-profile">
+                <h2>STEVE CABALLERO</h2>
+            </div>
+            <div class="skateboarder-profile">
+                <h2>TOMMY GUERRERO</h2>
+            </div>
+        </div>
+
+        <div id="board-designs">
+            <div class="board"><img src="images/sk8-1.png" alt=""></div>
+            <div class="board"><img src="images/sk8-2.png" alt=""></div>
+            <div class="board"><img src="images/sk8-3.png" alt=""></div>
+            <div class="board"><img src="images/sk8-4.png" alt=""></div>
+            <div class="board"><img src="images/sk8-5.png" alt=""></div>
+            <div class="board"><img src="images/sk8-6.png" alt=""></div>
+            <div class="board"><img src="images/sk8-7.png" alt=""></div>
+            <div class="board"><img src="images/sk8-8.png" alt=""></div>
+            <div class="board"><img src="images/sk8-9.png" alt=""></div>
+            <div class="board"><img src="images/sk8-10.png" alt=""></div>
+        </div>
+
+        <form id="contact">
+            <div class="contact-info">
+                <h2>COntact Us for More Information</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum rerum distinctio ut ea? Soluta
+                    voluptatum numquam facilis quasi consectetur velit atque aliquid hic rem, consequatur, dolorum
+                    corporis, nesciunt illo accusantium?</p>
+            </div>
+            <div class="contact-name mb-3">
+                <label for="contact-name" class="form-label"></label>
+                <textarea class="form-control" name="name" id="contact-name" rows="1" placeholder="NAME"></textarea>
+            </div>
+
+            <div class="contact-email mb-3">
+                <label for="contact-email" class="form-label"></label>
+                <input type="email" class="form-control" name="" id="contact-email" aria-describedby="ContactUs" placeholder="EMAIL">
+            </div>
+            <div class="mb-3">
+              <label for="contact-meassage" class="form-label"></label>
+              <textarea class="form-control" name="message" id="contact-message" rows="3" placeholder="YOUR MESSAGE"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
