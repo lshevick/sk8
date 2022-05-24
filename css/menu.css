@@ -1,3 +1,6 @@
+.menu-btns .col-lg.m-2 {
+  text-align: center;
+}
 .menu-btns a {
   position: relative;
   font-size: 0.9rem;
@@ -15,7 +18,7 @@
   font-size: 2rem;
   line-height: 2px;
   color: white;
-  margin: 0.7rem;
+  margin: 0.4rem;
 }
 
 /*# sourceMappingURL=menu.css.map */
