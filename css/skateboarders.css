@@ -44,10 +44,14 @@
   color: white;
   font-weight: bolder;
   font-size: 2.5rem;
-  display: inline-block;
-  justify-self: center;
-  align-self: center;
-  padding: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 992px) {
+  #skateboarders .tommy {
+    margin-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=skateboarders.css.map */
