@@ -1,28 +1,24 @@
 #board-design {
-  display: flex;
-  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 5px 0px rgba(250, 250, 250, 0.5);
+  margin-bottom: 2rem;
 }
 #board-design .board-wrapper {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background-color: #fff;
-  width: 40%;
-  position: relative;
-  transform: rotate(90deg) translateX(-200px);
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 50%;
+  transform: rotate(90deg) scale(3) translateY(-100px);
 }
 #board-design .board-wrapper .board {
-  width: 40%;
-  position: relative;
+  width: 30%;
 }
-
-@media (max-width: 600px) {
-  #board-design {
-    flex-direction: column;
-  }
-  #board-design .board-wrapper {
-    transform: none;
-  }
+#board-design .board-wrapper img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=board-design.css.map */

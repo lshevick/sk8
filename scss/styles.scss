@@ -4,7 +4,7 @@
 @use 'news';
 @use 'skateboarders';
 @use 'board-design';
-
+@use 'contact-us';
 
 $accent-color: #B1242D;
 
@@ -22,5 +22,5 @@ a {
 }
 
 .container {
-    width: 53%;
+    width: 60%;
 }
