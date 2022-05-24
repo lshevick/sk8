@@ -7,7 +7,7 @@
 #board-design .board-wrapper {
   width: 100%;
   position: relative;
-  left: 9%;
+  left: 1%;
   margin-bottom: 2rem;
   padding-bottom: 14rem;
 }
@@ -16,7 +16,15 @@
 }
 @media (max-width: 992px) {
   #board-design .board-wrapper .board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform: none;
+  }
+}
+@media (max-width: 992px) {
+  #board-design .board-wrapper {
+    padding: 0;
   }
 }
 

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/board-design.scss"],"names":[],"mappings":"AAAA;EAEK;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACG;;AAQC;EAGG;IACK","file":"board-design.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/board-design.scss"],"names":[],"mappings":"AAAA;EAEI;EACA;EACA;EACA;;AAIA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EAEI;IACI;IACA;IACA;IACA;;;AAKZ;EACI;IACI","file":"board-design.css"}
