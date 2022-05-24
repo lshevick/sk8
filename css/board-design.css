@@ -7,9 +7,9 @@
 #board-design .board-wrapper {
   width: 100%;
   position: relative;
-  left: 1%;
   margin-bottom: 2rem;
-  padding-bottom: 14rem;
+  padding-bottom: 11rem;
+  padding-top: 1rem;
 }
 #board-design .board-wrapper .board {
   transform: rotate(90deg);
@@ -25,6 +25,7 @@
 @media (max-width: 992px) {
   #board-design .board-wrapper {
     padding: 0;
+    flex-direction: column;
   }
 }
 

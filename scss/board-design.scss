@@ -10,9 +10,9 @@
     .board-wrapper {
         width: 100%;
         position: relative;
-        left: 1%;
         margin-bottom: 2rem;
-        padding-bottom: 14rem;
+        padding-bottom: 11rem;
+        padding-top: 1rem;
         
         .board {
             transform: rotate(90deg);
@@ -32,6 +32,7 @@
     @media (max-width: 992px) {
         .board-wrapper {
             padding: 0;
+            flex-direction: column;
         }
     
     }

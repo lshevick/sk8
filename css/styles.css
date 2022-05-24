@@ -76,27 +76,24 @@
   position: absolute;
 }
 .carousel .border .top {
-  z-index: 3;
   top: 15%;
   left: 1%;
 }
 .carousel .border .middle {
-  z-index: 2;
   opacity: 0.25;
 }
 .carousel .border .bottom {
-  z-index: 1;
   left: -10rem;
   top: -8rem;
 }
 
-#sk8-news .col {
+#sk8-news .col-lg {
   box-shadow: 0px 5px 0px rgba(250, 250, 250, 0.5);
 }
 #sk8-news h2 {
   font-size: 1.5rem;
 }
-#sk8-news h3 {
+#sk8-news time {
   font-size: 0.8rem;
   color: gray;
 }
@@ -153,18 +150,7 @@
   display: inline-block;
   justify-self: center;
   align-self: center;
-}
-@media (min-width: 768px) {
-  #skateboarders .col-lg-5 {
-    width: 48.4%;
-  }
-  #skateboarders .col-lg-12 {
-    width: 98.3%;
-    height: 228px;
-  }
-  #skateboarders .col-lg-4 {
-    height: 100%;
-  }
+  padding: 2rem;
 }
 
 #board-design {
@@ -176,9 +162,9 @@
 #board-design .board-wrapper {
   width: 100%;
   position: relative;
-  left: 1%;
   margin-bottom: 2rem;
-  padding-bottom: 14rem;
+  padding-bottom: 11rem;
+  padding-top: 1rem;
 }
 #board-design .board-wrapper .board {
   transform: rotate(90deg);
@@ -194,6 +180,7 @@
 @media (max-width: 992px) {
   #board-design .board-wrapper {
     padding: 0;
+    flex-direction: column;
   }
 }
 
@@ -225,7 +212,7 @@ a {
   color: white;
 }
 
-.container-lg {
+.full-site {
   width: 60%;
 }
 

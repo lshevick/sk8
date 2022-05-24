@@ -47,18 +47,7 @@
   display: inline-block;
   justify-self: center;
   align-self: center;
-}
-@media (min-width: 768px) {
-  #skateboarders .col-lg-5 {
-    width: 48.4%;
-  }
-  #skateboarders .col-lg-12 {
-    width: 98.3%;
-    height: 228px;
-  }
-  #skateboarders .col-lg-4 {
-    height: 100%;
-  }
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=skateboarders.css.map */
