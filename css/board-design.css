@@ -1,0 +1,28 @@
+#board-design {
+  display: flex;
+  justify-content: center;
+}
+#board-design .board-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  width: 40%;
+  position: relative;
+  transform: rotate(90deg) translateX(-200px);
+}
+#board-design .board-wrapper .board {
+  width: 40%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  #board-design {
+    flex-direction: column;
+  }
+  #board-design .board-wrapper {
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=board-design.css.map */
