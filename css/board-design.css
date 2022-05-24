@@ -5,13 +5,19 @@
   margin-bottom: 2rem;
 }
 #board-design .board-wrapper {
+  width: 100%;
   position: relative;
   left: 9%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   padding-bottom: 14rem;
 }
 #board-design .board-wrapper .board {
   transform: rotate(90deg);
+}
+@media (max-width: 992px) {
+  #board-design .board-wrapper .board {
+    transform: none;
+  }
 }
 
 /*# sourceMappingURL=board-design.css.map */

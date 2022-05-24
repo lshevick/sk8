@@ -37,5 +37,10 @@
 .social-btns .fa-youtube {
   background-color: #AE312C;
 }
+@media (max-width: 992px) {
+  .social-btns #subscribe {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=social-btns.css.map */

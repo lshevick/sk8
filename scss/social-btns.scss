@@ -47,4 +47,11 @@
     .fa-youtube {
         background-color: #AE312C;
     }
+
+    @media (max-width: 992px) {
+        #subscribe {
+            display: none;
+        }
+    }
+
 }
